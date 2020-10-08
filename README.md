@@ -9,4 +9,6 @@ Create conexion en web config
 Constructor y DbSet en el Contex
 Comando consol Nuget
   -enable-migatrions
-  -update-database 
+  
+  (add-migration Name)
+  -update-database -Verbose
